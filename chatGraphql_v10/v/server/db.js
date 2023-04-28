@@ -1,7 +1,7 @@
 import { MongoClient, ObjectId } from "mongodb";
 
 const client = new MongoClient(
-  "mongodb+srv://albinkurtaj:mhjjpiIYKZaqMuKA@cluster0.1ie8dsn.mongodb.net/?retryWrites=true&w=majority",
+  //connection String for mongodb database,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
