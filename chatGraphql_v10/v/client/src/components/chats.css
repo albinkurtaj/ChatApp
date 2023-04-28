@@ -1,0 +1,132 @@
+.my-div {
+  /* width: 500px;
+  height: 200px; */
+  display: flex;
+  overflow: auto;
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+}
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
+.messageBox {
+  background-color: rgb(132, 222, 132);
+  width: 150px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.my-list li::marker {
+  color: white;
+}
+
+.messages1 {
+  overflow: auto;
+  width: 40%;
+  height: 100%;
+}
+.beforemessages {
+  display: flex;
+  overflow: auto;
+  width: 40vw;
+  height: 100%;
+}
+
+.button {
+  background-color: rgb(56, 162, 56);
+  color: aliceblue;
+  /* margin-left: 2cm ; */
+  height: 50px;
+  width: 200px;
+  font-size: 0.7cm;
+  border-radius: 10px;
+}
+.onmessages {
+  display: flex;
+  overflow: auto;
+  width: 60vw;
+  height: 100%;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  border-style: solid;
+  border-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.input {
+  background-color: rgb(178, 234, 178);
+  height: 50px;
+  width: 300px;
+  font-size: 0.7cm;
+  border-radius: 10px;
+}
+.input1 {
+  background-color: rgb(178, 234, 178);
+  height: 50px;
+  width: 400px;
+  font-size: 0.7cm;
+  border-radius: 10px;
+}
+.input3{
+  background-color: rgb(178, 234, 178);
+  height: 50px;
+  width: 600px;
+  font-size: 0.7cm;
+  border-radius: 10px;
+}
+
+.input2 {
+  float: left;
+  background-color: rgb(178, 234, 178);
+  height: 50px;
+  width: 50%;
+  font-size: 0.7cm;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.column1 {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  border-style: solid;
+  border-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.column2 {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  border-style: solid;
+  border-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
